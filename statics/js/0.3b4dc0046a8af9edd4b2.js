@@ -4500,6 +4500,19 @@ webpackJsonp([0], {
                     staticClass: "qrcode"
                 })])], 1)
             },
+            staticRenderFns: [function() {
+                var e = this.$createElement,
+                t = this._self._c || e;
+                return t("div", {
+                    staticClass: "qktz"
+                },
+                [t("a", {
+                    attrs: {
+                        href: "#",
+                        rel: "noopener noreferrer"
+                    }
+                })])
+            }]
         };
         var d = {
             name: "Index",
