@@ -1,167 +1,25 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv=Content-Type content="text/html;charset=UTF-8">
+    <meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
     <title>VIP视频解析播放_全网解析永久免费！</title>
     <meta name="keywords" content="vip视频解析,vip视频在线解析,vip解析,万能vip视频解析,vip视频全能解析,vip视频,手机vip视频解析,手机在线解析vip视频,优酷vip解析,爱奇艺vip解析,腾讯vip解析,乐视vip解析,芒果vip解析,vip音乐解析">
     <meta name="description" content="播提供最新视频解析，VIP视频解析，视频网站VIP解析免广告观看，全民解析VIP视频免费看，在线解析，vip视频解析，优酷vip解析，爱奇艺vip解析，腾讯vip解析，乐视vip解析，全网影视vip，芒果vip解析方便广大用户VIP视频服务，最新支持高清视频在线解析观看。">
     <link rel="shortcut icon" href="images/favicon.ico" />
-    <link rel="bookmark" href="images/favicon.ico" />
-    <link href="https://lib.baomitu.com/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="static/css/style.css" rel="stylesheet" type="text/css" />
-    <script src="https://lib.baomitu.com/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://lib.baomitu.com/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-eval(function(p, a, c, k, e, d) {
-  e = function(c) {
-    return(c < a ? "" : e(parseInt(c / a))) + ((c = c % a) > 35 ? String.fromCharCode(c + 29) : c.toString(36))
-  };
-  if(!''.replace(/^/, String)) {
-    while(c--) d[e(c)] = k[c] || e(c);
-    k = [function(e) {
-      return d[e]
-    }];
-    e = function() {
-      return '\\w+'
-    };
-    c = 1
-  };
-  while(c--)
-    if(k[c]) p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c]);
-  return p
-}('b a(){0 6=1.2("9").4;0 5=1.2("3");0 3=1.2("3").c;0 8=5.e[3].4;0 7=1.2("f");7.d=8+6}', 16, 16, 'var|document|getElementById|jk|value|jkurl|diz|cljurl|jkv|url|dihejk|function|selectedIndex|src|options|player'.split('|'), 0, {}))
-    </script>
-  </head>
-
+    <link rel=stylesheet href=https://lib.baomitu.com/element-ui/2.12.0/theme-chalk/index.css>
+    <script src=https://cdn.jsdelivr.net/gh/XiaoGuYa/jx/static/lib/js/qrcode.min.js></script>
+    <script src=https://cdn.jsdelivr.net/npm/hls.js@latest></script>
+    <link href=https://cdn.jsdelivr.net/gh/XiaoGuYa/jx/2020-07-04/static/css/app.2c4da66ef066ab3a4433b0ab6645cbb1.css rel=stylesheet></head>
   <body>
-    <div class="topbar">
-      <div class="container">
-        <div class="logo">
-          <a href="/" target="_self"><img src="https://ae01.alicdn.com/kf/H4016f0b64e384df7999c1caeaf37ac804.png"></a>
-        </div>
-        <div class="txt">看VIP影片如此简单</div>
-        <ul>
-          <li><a target="_blank" href="https://github.com/XiaoGuYa/VIP-"><i class="it4"></i>浏览器插件</a></li>
-        </ul>
-      </div>
+    <div id=app></div>
+    <div style="display: none;">
     </div>
-    <!--头部结束-->
-    <div class="container" style="padding-top:10px;">
-      <div class="col-md-14 column" style="margin-top: -10px;margin-bottom: -10px;">
-        <div class="panel panel-default"> <span style="color: #FE8B1F;display: block;text-align:center;line-height:40px;font-size:16px;">【若播放异常，刷新，更换接口尝试！】    |     【输入地址后，请点击立即播放按钮进行观看。】
-		</span> </div>
-      </div>
-    </div>    
-    <div class="container" style="padding-top:10px;">    
-      <div class="col-md-14 column">
-          <form method="get">
-            <div class="col-md-3" style="margin-top: 8px;">
-              <div class="input-group" style="width: 100%;">
-                <select class="form-control input-lg" id="jk">
-                  <option value="https://api.bbbbbb.me/jx/?url=" selected="">01号接口</option>
-                  <option value="https://www.360jx.vip/?url=">02号接口</option>
-                  <option value="http://cn.bjbanshan.cn/jx.php?url=">03号接口</option>
-                  <option value="http://jx.mwo.cc/?url=">04号接口</option>
-                  <option value="http://www.bavei.com/vip/?url=">05号接口</option>
-                  <option value="http://api.ledboke.com/?url=">06号接口</option>
-                  <option value="http://jx.3aym.cn/?url=">07号接口</option>
-                  <option value="http://vip.wandhi.com/?url=">08号接口</option>
-                  <option value="http://vip.116kan.com/?url=">09号接口</option>
-                  <option value="http://jx.hao0606.com/?url=">10号接口</option>
-                  <option value="http://jx.bwcxy.com/?v=">11号接口</option>
-                  <option value="http://api.lhh.la/vip/?url=">12号接口</option>
-                  <option value="http://api.tv920.com/vip/?url=">13号接口</option>
-                  <option value="#">更多接口等待添加</option>
-                </select>
-              </div>
-            </div>
-            <div class="col-md-7" style="margin-top: 8px;">
-              <div class="input-group" style="width: 100%;">
-                <input class="form-control input-lg" type="search" placeholder="输入播放地址，点击立即播放" id="url">
-              </div>
-            </div>
-            <div class="col-md-2" style="margin-top: 8px;">
-                <div class="col-md-14 column"> </div>
-                <button type="button" class="btn btn-default btn-lg btn-block" onclick="dihejk()">立即播放</button>
-              </div>
-          </form>
-      </div>
-    </div>    
-    <div class="container" style="padding-top:10px;">    
-      <div class="col-md-14 column">
-        <div class="panel panel-default">
-          <div id="kj" class="panel-body">
-	    <iframe width="100%" height="100%" src="https://api.bbbbbb.me/jx/?url=" id="player" frameborder="0" border="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="true" ></iframe>
-          </div>
-        </div>
-      </div>
-      <div class="tips">
-        <div class="col-md-12" style="margin-top: 10px;">
-          <div style="border-radius: 0;" class="alert alert-success" role="alert">
-            <p style="text-align: center;">点击下方影视网站图标，找到想要观看的影片。</p>
-            <p style="text-align: center;">复制影片网址，粘贴至上方输入框内，点击立即播放即可。</p>
-          </div>
-        </div>
-        <div class="logos_lists">
-          <dl> <dt><a target="_blank" href="http://www.le.com/"><img src="static/picture/letvlogo.png"></a></dt>
-            <dd>乐视TV视频</dd>
-          </dl>
-          <dl> <dt><a target="_blank" href="http://v.qq.com/"><img src="static/picture/qqlogo.png" width="150" height="35"></a></dt>
-            <dd>腾讯视频</dd>
-          </dl>
-          <dl> <dt><a target="_blank" href="http://www.iqiyi.com/"><img src="static/picture/iqiyi.png" width="110" height="35"></a></dt>
-            <dd>爱奇艺视频</dd>
-          </dl>
-          <dl> <dt><a target="_blank" href="http://www.youku.com/"><img src="static/picture/youkulogo.png"></a></dt>
-            <dd>优酷视频</dd>
-          </dl>
-          <dl> <dt><a target="_blank" href="http://www.mgtv.com/"><img src="static/picture/hunantvlogo.png"></a></dt>
-            <dd>芒果TV视频</dd>
-          </dl>
-          <dl> <dt><a target="_blank" href="http://tv.sohu.com/"><img src="static/picture/sohulogo.png"></a></dt>
-            <dd>搜狐视频</dd>
-          </dl>
-          <dl> <dt><a target="_blank" href="http://www.bilibili.com/"><img src="static/picture/bilibili.png" width="110" height="35"></a></dt>
-            <dd>哔哩哔哩</dd>
-          </dl>
-        </div>
-      </div>
-    </div>
-    <div class="copyright">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-sm-12">
-            <br> <span><font size="3">Copyright &copy; 2020 XiaoGu All Rights Reserved
-			<br>
-			本站不进行任何资源存储，只提供网络测速服务<br>
-</font>
-      </div></div>
-		<p><br>
-      </div>
-    </div>
-       
-
-    <Script language="javascript">  
-function GetQueryString(name)
-{
-     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
-     var r = window.location.search.substr(1).match(reg);
-     if(r!=null)return  unescape(r[2]); 
-     return null;
-}
-// 调用
-var url=GetQueryString("url");
-document.getElementById("url").value=url;
-    </script> 
- 
-  <SCRIPT language=javascript type=text/javascript>
-<!--
-document.oncontextmenu=new Function('event.returnValue=false;');
-document.onselectstart=new Function('event.returnValue=false;');
--->
-  </SCRIPT> 
-  
-</body>
+    <script src=https://lib.baomitu.com/vue/2.6.10/vue.min.js></script>
+    <script src=https://lib.baomitu.com/vue-router/3.0.6/vue-router.min.js></script>
+    <script src=https://lib.baomitu.com/element-ui/2.12.0/index.js></script>
+    <script type=text/javascript src=https://cdn.jsdelivr.net/gh/XiaoGuYa/jx/2020-07-04/static/js/manifest.e5b51c783dcda27a09c3.js></script>
+    <script type=text/javascript src=https://cdn.jsdelivr.net/gh/XiaoGuYa/jx/2020-07-04/static/js/vendor.ec605399dd00f79f50b1.js></script>
+    <script type=text/javascript src=https://cdn.jsdelivr.net/gh/XiaoGuYa/jx/2020-07-04/static/js/app.22dcf78e58ec33ff685b.js></script>
+  </body>
 </html>
