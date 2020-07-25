@@ -68,7 +68,7 @@ webpackJsonp([2], {
             siteName: "vip视频在线解析",
             signUrl: "@keyurl@",
             vipSites: [{
-                value: "http://jiexi.380k.com/?url=@keyurl@",
+                value: "https://api.bbbbbb.me/jx/?url=@keyurl@",
                 label: "接口1"
             },
             {
@@ -80,7 +80,7 @@ webpackJsonp([2], {
                 label: "接口3"
             },
             {
-                value: "https://api.bbbbbb.me/jx/?url=@keyurl@",
+                value: "http://jiexi.380k.com/?url=@keyurl@",
                 label: "接口4"
             },
             {
