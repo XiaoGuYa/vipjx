@@ -132,7 +132,7 @@ webpackJsonp([2], {
                 label: "接口16"
             },
             {
-                value: "http://beijixs.cn/?url=@keyurl@",
+                value: "https://okjx.cc/?url=@keyurl@",
                 label: "接口17"
             },
             {
@@ -160,12 +160,8 @@ webpackJsonp([2], {
                 label: "接口23"
             },
             {
-                value: "https://okjx.cc/?url=@keyurl@",
-                label: "接口24"
-            },
-            {
                 value: "https://api.lhh.la/vip/?url=@keyurl@",
-                label: "接口25"
+                label: "接口24"
             }]
         };
         x.a.use(b.a),
