@@ -92,8 +92,80 @@ webpackJsonp([2], {
                 label: "接口6"
             },
             {
-                value: "https://api.lhh.la/vip/?url=@keyurl@",
+                value: "https://jqaaa.com/jx.php?url=@keyurl@",
                 label: "接口7"
+            }, 
+            {
+                value: "https://api.sigujx.com/?url=@keyurl@",
+                label: "接口8"
+            },
+            {
+                value: "https://api.927jx.com/vip/?url=@keyurl@",
+                label: "接口9"
+            },
+            {
+                value: "https://660e.com/?url=@keyurl@",
+                label: "接口10"
+            },
+            {
+                value: "https://jx.lache.me/cc/?url=@keyurl@",
+                label: "接口11"
+            },
+            {
+                value: "https://cdn.yangju.vip/k/?url=@keyurl@",
+                label: "接口12"
+            },
+            {
+                value: "https://vip.mpos.ren/v/?url=@keyurl@",
+                label: "接口13"
+            },
+            {
+                value: "https://jx.000180.top/jx/?url=@keyurl@",
+                label: "接口14"
+            },
+            {
+                value: "https://api.653520.top/vip/?url=@keyurl@",
+                label: "接口15"
+            },
+            {
+                value: "https://jx.ab33.top/vip/?url=@keyurl@",
+                label: "接口16"
+            },
+            {
+                value: "http://beijixs.cn/?url=@keyurl@",
+                label: "接口17"
+            },
+            {
+                value: "https://jx.htv009.com/?url=@keyurl@",
+                label: "接口18"
+            },
+            {
+                value: "https://vip.52jiexi.top/?url=@keyurl@",
+                label: "接口19"
+            },
+            {
+                value: "https://api.tv920.com/jx/?url=@keyurl@",
+                label: "接口20"
+            },
+            {
+                value: "https://jiexi.bm6ig.cn/?url=@keyurl@",
+                label: "接口21"
+            },
+            {
+                value: "https://jx.99yyw.com/?url=@keyurl@",
+                label: "接口22"
+            },
+            {
+                value: "https://v.7cyd.com/vip/?url=@keyurl@",
+                label: "接口23"
+            },
+            {
+                value: "https://okjx.cc/?url=@keyurl@",
+                label: "接口24"
+            },
+            {
+                value: "https://api.lhh.la/vip/?url=@keyurl@",
+                label: "接口25"
             }]
         };
         x.a.use(b.a),
