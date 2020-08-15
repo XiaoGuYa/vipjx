@@ -68,7 +68,7 @@ webpackJsonp([2], {
             siteName: "vip视频在线解析",
             signUrl: "@keyurl@",
             vipSites: [{
-                value: "https://api.bbbbbb.me/jx/?url=@keyurl@",
+                value: "https://z1.m1907.cn/?jx=@keyurl@",
                 label: "接口1"
             },
             {
@@ -80,7 +80,7 @@ webpackJsonp([2], {
                 label: "接口3"
             },
             {
-                value: "http://jiexi.380k.com/?url=@keyurl@",
+                value: "http://v.dlcaixin.com/?url=@keyurl@",
                 label: "接口4"
             },
             {
@@ -88,7 +88,7 @@ webpackJsonp([2], {
                 label: "接口5"
             },
             {
-                value: "https://z1.m1907.cn/?jx=@keyurl@",
+                value: "http://www.600m.net/api/?v=@keyurl@",
                 label: "接口6"
             },
             {
